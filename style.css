@@ -1,0 +1,50 @@
+/* Styling Umum */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+/* Judul */
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Tombol */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #ff5733;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 200px;
+    margin: auto;
+}
+
+.btn:hover {
+    background-color: #c70039;
+    transform: scale(1.1);
+}
